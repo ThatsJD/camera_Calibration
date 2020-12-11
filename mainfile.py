@@ -6,6 +6,8 @@ import os
 import matplotlib.pyplot as plt
 
 ImageSymmetry=("Asymmetric","Symmetric")
+
+#select type of symmetry
 ImageFlag=ImageSymmetry[1]
 ImageDir="TestImages_" + ImageFlag
 # termination criteria
